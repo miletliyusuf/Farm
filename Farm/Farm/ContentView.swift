@@ -6,16 +6,23 @@
 //
 
 import SwiftUI
+import Dogs
 
 struct ContentView: View {
+
+    let dogs = DogsInFarm()
+
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        Button("Tap to bark") {
+            print(dogs.speak())
+        }
     }
 }
 
+#if DEBUG
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         ContentView()
     }
 }
+#endif

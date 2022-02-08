@@ -1,0 +1,16 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "Dogs",
+        "repositoryURL": "git@github.com:miletliyusuf/Dogs.git",
+        "state": {
+          "branch": "main",
+          "revision": "24b2fdf145df1bfd5c3853444971e06775f81f65",
+          "version": null
+        }
+      }
+    ]
+  },
+  "version": 1
+}

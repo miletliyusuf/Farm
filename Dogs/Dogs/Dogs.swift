@@ -10,7 +10,7 @@
 
 import Foundation
 
-public final class Dogs {
+public final class DogsInFarm {
 
     public enum Types {
 
@@ -22,9 +22,16 @@ public final class Dogs {
 
     public var all: [Types] = [.germanShepherd, .labrador, .golden, .husky]
 
+    public init() {}
+
     public func speak() -> String {
 
         return "BARK! BARK!"
+    }
+
+    public func footNumber() -> Int {
+
+        return 4
     }
 
     private func isSleeping() -> Bool {

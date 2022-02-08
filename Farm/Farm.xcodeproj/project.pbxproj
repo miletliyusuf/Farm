@@ -11,6 +11,7 @@
 		881871EE27B2668B0019DFCD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 881871ED27B2668B0019DFCD /* ContentView.swift */; };
 		881871F027B2668F0019DFCD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 881871EF27B2668F0019DFCD /* Assets.xcassets */; };
 		881871F327B2668F0019DFCD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 881871F227B2668F0019DFCD /* Preview Assets.xcassets */; };
+		881871FE27B268D10019DFCD /* Dogs in Frameworks */ = {isa = PBXBuildFile; productRef = 881871FD27B268D10019DFCD /* Dogs */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				881871FE27B268D10019DFCD /* Dogs in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +85,9 @@
 			dependencies = (
 			);
 			name = Farm;
+			packageProductDependencies = (
+				881871FD27B268D10019DFCD /* Dogs */,
+			);
 			productName = Farm;
 			productReference = 881871E827B2668B0019DFCD /* Farm.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +116,9 @@
 				Base,
 			);
 			mainGroup = 881871DF27B2668B0019DFCD;
+			packageReferences = (
+				881871FC27B268D10019DFCD /* XCRemoteSwiftPackageReference "Dogs" */,
+			);
 			productRefGroup = 881871E927B2668B0019DFCD /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -341,6 +349,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		881871FC27B268D10019DFCD /* XCRemoteSwiftPackageReference "Dogs" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "git@github.com:miletliyusuf/Dogs.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		881871FD27B268D10019DFCD /* Dogs */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 881871FC27B268D10019DFCD /* XCRemoteSwiftPackageReference "Dogs" */;
+			productName = Dogs;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 881871E027B2668B0019DFCD /* Project object */;
 }
