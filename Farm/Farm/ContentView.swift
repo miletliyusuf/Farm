@@ -13,8 +13,13 @@ struct ContentView: View {
     let dogs = DogsInFarm()
 
     var body: some View {
-        Button("Tap to bark") {
-            print(dogs.speak())
+        VStack {
+            Button("Tap to bark") {
+                print(dogs.speak())
+            }
+            Button("Tap to see number of foots") {
+                print(dogs.footNumber())
+            }
         }
     }
 }

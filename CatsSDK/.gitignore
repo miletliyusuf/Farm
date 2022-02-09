@@ -1,0 +1,6 @@
+CatsSDK/*
+CatsSDK.xcodeproj
+build/*
+export.sh
+outputs/CatsSDK-iphoneos.xcarchive
+outputs/CatsSDK-iphonesimulator.xcarchive
