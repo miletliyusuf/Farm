@@ -7,10 +7,12 @@
 
 import SwiftUI
 import Dogs
+import CatsSDK
 
 struct ContentView: View {
 
     let dogs = DogsInFarm()
+    let cats = Cats()
 
     var body: some View {
         VStack {
@@ -19,6 +21,9 @@ struct ContentView: View {
             }
             Button("Tap to see number of foots") {
                 print(dogs.footNumber())
+            }
+            Button("Tap to speak cat") {
+                print(cats.speak())
             }
         }
     }

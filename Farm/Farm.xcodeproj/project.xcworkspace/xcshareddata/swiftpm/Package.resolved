@@ -2,6 +2,15 @@
   "object": {
     "pins": [
       {
+        "package": "CatsSDK",
+        "repositoryURL": "https://github.com/miletliyusuf/CatsSDK",
+        "state": {
+          "branch": "main",
+          "revision": "6c34070fbb72f7079facbc538238595201fd8a4e",
+          "version": null
+        }
+      },
+      {
         "package": "Dogs",
         "repositoryURL": "git@github.com:miletliyusuf/Dogs.git",
         "state": {

@@ -12,6 +12,7 @@
 		881871F027B2668F0019DFCD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 881871EF27B2668F0019DFCD /* Assets.xcassets */; };
 		881871F327B2668F0019DFCD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 881871F227B2668F0019DFCD /* Preview Assets.xcassets */; };
 		881871FE27B268D10019DFCD /* Dogs in Frameworks */ = {isa = PBXBuildFile; productRef = 881871FD27B268D10019DFCD /* Dogs */; };
+		8818721927B3DD1D0019DFCD /* CatsSDK in Frameworks */ = {isa = PBXBuildFile; productRef = 8818721827B3DD1D0019DFCD /* CatsSDK */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8818721927B3DD1D0019DFCD /* CatsSDK in Frameworks */,
 				881871FE27B268D10019DFCD /* Dogs in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -87,6 +89,7 @@
 			name = Farm;
 			packageProductDependencies = (
 				881871FD27B268D10019DFCD /* Dogs */,
+				8818721827B3DD1D0019DFCD /* CatsSDK */,
 			);
 			productName = Farm;
 			productReference = 881871E827B2668B0019DFCD /* Farm.app */;
@@ -118,6 +121,7 @@
 			mainGroup = 881871DF27B2668B0019DFCD;
 			packageReferences = (
 				881871FC27B268D10019DFCD /* XCRemoteSwiftPackageReference "Dogs" */,
+				8818721727B3DD1D0019DFCD /* XCRemoteSwiftPackageReference "CatsSDK" */,
 			);
 			productRefGroup = 881871E927B2668B0019DFCD /* Products */;
 			projectDirPath = "";
@@ -359,6 +363,14 @@
 				kind = branch;
 			};
 		};
+		8818721727B3DD1D0019DFCD /* XCRemoteSwiftPackageReference "CatsSDK" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/miletliyusuf/CatsSDK";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -366,6 +378,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 881871FC27B268D10019DFCD /* XCRemoteSwiftPackageReference "Dogs" */;
 			productName = Dogs;
+		};
+		8818721827B3DD1D0019DFCD /* CatsSDK */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8818721727B3DD1D0019DFCD /* XCRemoteSwiftPackageReference "CatsSDK" */;
+			productName = CatsSDK;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
