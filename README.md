@@ -17,6 +17,8 @@ Basically, we should have 2 builded archives. One for simulators and other for d
 
 ## CREATING XCArchive
 
+Both individual animal sdks contains export.sh file which you can generate xcframeworks. You can see example of dogs xcframework creation at below.
+
 # For Devices 
 
 xcodebuild archive \
