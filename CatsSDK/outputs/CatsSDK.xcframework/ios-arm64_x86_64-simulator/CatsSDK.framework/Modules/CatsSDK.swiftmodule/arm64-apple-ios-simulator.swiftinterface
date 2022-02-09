@@ -1,0 +1,26 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.5.2 (swiftlang-1300.0.47.5 clang-1300.0.29.30)
+// swift-module-flags: -target arm64-apple-ios15.2-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name CatsSDK
+@_exported import CatsSDK
+import Foundation
+import Swift
+import _Concurrency
+final public class Cats {
+  public enum Types {
+    case persian
+    case maine
+    case bengal
+    public static func == (a: CatsSDK.Cats.Types, b: CatsSDK.Cats.Types) -> Swift.Bool
+    public func hash(into hasher: inout Swift.Hasher)
+    public var hashValue: Swift.Int {
+      get
+    }
+  }
+  final public var all: [CatsSDK.Cats.Types]
+  public init()
+  final public func speak() -> Swift.String
+  final public func footNumber() -> Swift.Int
+  @objc deinit
+}
+extension CatsSDK.Cats.Types : Swift.Equatable {}
+extension CatsSDK.Cats.Types : Swift.Hashable {}
