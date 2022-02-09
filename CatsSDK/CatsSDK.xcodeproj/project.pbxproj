@@ -9,12 +9,14 @@
 /* Begin PBXBuildFile section */
 		8818720E27B29DE90019DFCD /* CatsSDK.docc in Sources */ = {isa = PBXBuildFile; fileRef = 8818720D27B29DE90019DFCD /* CatsSDK.docc */; };
 		8818720F27B29DE90019DFCD /* CatsSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = 8818720C27B29DE90019DFCD /* CatsSDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8818721627B3D2730019DFCD /* Cats.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8818721527B3D2730019DFCD /* Cats.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		8818720927B29DE90019DFCD /* CatsSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CatsSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8818720C27B29DE90019DFCD /* CatsSDK.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CatsSDK.h; sourceTree = "<group>"; };
 		8818720D27B29DE90019DFCD /* CatsSDK.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = CatsSDK.docc; sourceTree = "<group>"; };
+		8818721527B3D2730019DFCD /* Cats.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cats.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,6 +50,7 @@
 			isa = PBXGroup;
 			children = (
 				8818720C27B29DE90019DFCD /* CatsSDK.h */,
+				8818721527B3D2730019DFCD /* Cats.swift */,
 				8818720D27B29DE90019DFCD /* CatsSDK.docc */,
 			);
 			path = CatsSDK;
@@ -132,6 +135,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8818721627B3D2730019DFCD /* Cats.swift in Sources */,
 				8818720E27B29DE90019DFCD /* CatsSDK.docc in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -1,0 +1,11 @@
+framework module CatsSDK {
+  umbrella header "CatsSDK.h"
+
+  export *
+  module * { export * }
+}
+
+module CatsSDK.Swift {
+    header "CatsSDK-Swift.h"
+    requires objc
+}
